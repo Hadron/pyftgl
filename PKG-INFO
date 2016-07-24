@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: PyFTGL
+Version: 0.5b
+Summary: Python FTGL binding
+Home-page: http://code.google.com/p/pyftgl/
+Author: Anders Dahnielson
+Author-email: anders@dahnielson.com
+License: GPLv2
+Download-URL: http://code.google.com/p/pyftgl/downloads/list
+Description: FTGL is a free, open source library to enable developers to use
+        arbitrary fonts in their OpenGL applications. Unlike other OpenGL font
+        libraries FTGL uses standard font file formats and the Freetype font
+        library to open the fonts. PyFTGL in turn wraps the functionality of
+        FTGL into a Python module so that it can be used in conjunction with
+        PyOpenGL.
+Platform: POSIX
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
