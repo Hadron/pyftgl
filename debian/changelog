@@ -1,0 +1,5 @@
+pyftgl (0.5b-1) unstable; urgency=low
+
+  Initial packaging (Closes: #701966).
+
+ -- Klee Dienes <klee@debian.org>  Sun, 24 Jul 2016 12:21:53 -0400

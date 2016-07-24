@@ -1,0 +1,33 @@
+Source: pyftgl
+Maintainer: Klee Dienes <klee@debian.org>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-all-dev (>= 2.6.6-3), python3-all-dev, debhelper (>= 9), libftgl-dev, libboost-dev, libboost-python-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/umlaeute/pyftgl
+
+Package: python-pyftgl
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: Python FTGL binding
+ FTGL is a free, open source library to enable developers to use
+ arbitrary fonts in their OpenGL applications. Unlike other OpenGL font
+ libraries FTGL uses standard font file formats and the Freetype font
+ library to open the fonts. PyFTGL in turn wraps the functionality of
+ FTGL into a Python module so that it can be used in conjunction with
+ PyOpenGL.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-pyftgl
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: Python FTGL binding
+ FTGL is a free, open source library to enable developers to use
+ arbitrary fonts in their OpenGL applications. Unlike other OpenGL font
+ libraries FTGL uses standard font file formats and the Freetype font
+ library to open the fonts. PyFTGL in turn wraps the functionality of
+ FTGL into a Python module so that it can be used in conjunction with
+ PyOpenGL.
+ .
+ This package installs the library for Python 3.
